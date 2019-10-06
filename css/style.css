@@ -1,0 +1,87 @@
+body.html{
+    height:100%;
+    margin:0;
+    line-height: 1.8em;
+    font-weight: 400PX;
+    font-size:15px;
+    color:blueviolet;
+    font-family: "Lato", sans-serif;
+}
+
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity:0.70;
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+     background-attachment:fixed;
+}
+
+
+.pimg1{
+    background-image: url('/img/architecture-buildings-city-169647.jpg');
+    min-height:800px;
+}
+
+.pimg2{
+    background-image: url('/img/architecture-buildings-chicago-416942.jpg');
+    min-height:400px;
+}
+
+.pimg3{
+    background-image: url('/img/architecture-australia-building-374870.jpg');
+    min-height:400px;
+}
+
+
+.section{
+    text-align:center;
+    padding: 50px, 80px;
+}
+
+.section-light{background-color:lightgrey;
+    color:rgb(119, 119, 230);
+}
+
+.section-dark{
+    background-color:rgb(127, 127, 243);
+    color:lightgrey;
+
+}
+
+.ptext{positon:abbsolute;
+    width: 100%;
+    text-align:center;
+    font-size:17px;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    color:blue;
+    padding-top:200px;
+
+    
+
+}
+
+.border-trans{
+    padding-top:400px;
+}
+
+.ptext .border-trans{
+    border:1px solid grey;
+    color:lightgray;
+    background-color: blue;
+    border-radius:50px;
+    padding:10px;
+}
+
+.border-trans:hover{
+    background-color:grey;
+    color:blue;
+}
+.ptext.border{
+    background-color: #777;
+    color:blue;
+    padding: 200px;
+
+}
